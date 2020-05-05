@@ -1,0 +1,2584 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+   	 
+   	 <title>Web Development Internship Project</title>
+       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+       <style>
+           body{
+               margin:0;
+               padding: 0;
+               background-color: #BC8F8F;  
+            }
+
+          .back-red{
+               background: #F08080;
+               margin-top: 40px;
+               margin-left: 30%;
+               margin-right: 30%;
+               padding-top: 10px;
+               border-radius: 15px;
+               font-family:  "Lucida Console", Courier, monospace;
+               font-size: 20px;
+               text-align: center;
+            }
+
+            #heading-text{
+               text-align: center;
+               font-size: 40px;
+               color: #FDF5E6;
+               margin-left:20%;
+               margin-right: 20%;
+            }
+
+            .video-area{
+                margin-left: 30%;
+                margin-right: 30%;
+            }
+
+            #heading-description{
+               color: #FDF5E6;
+               font-size: 25px;
+               text-align: center;
+               margin-left:20%;
+               margin-right: 20%; 
+            }
+
+            .red-text{
+               font-family: 'Raleway', sans-serif; 
+               color: #DC143C;
+               font-size: 40px;
+               font-weight: bold;
+               text-align: center;
+            }
+
+            .btn{
+               background-color: #FFFF00;
+               border:none;
+               color: black;
+               padding:15px 30px;
+               text-align: center;
+               display: inline-block;
+               font-size: 16px;
+               margin-left: 200px;
+               margin-right: 100px;
+            }
+
+            #bg-white{
+               width: 1335px; 
+               margin-left: -400px;
+               background-color: #FFFAF0;
+               text-align: center;
+            }
+
+            
+            #p1{
+               color:#FF6347;
+               font-size: 40px;
+               font-weight: bold;
+               margin-left: 5%;
+               margin-right: 5%;
+            }
+
+           
+
+            .t1{
+               margin-left: 0px;
+               margin-right: 0;
+               display: table;
+               width:100%;
+               height: auto;
+            }
+
+            .t2{
+               
+               margin-left:0px;
+               margin-right: 0;
+               display: table;
+               width:100%;
+               height: auto; 
+            }
+
+            ul{
+               display: table-row;
+            }
+
+            li{
+               display: table-cell;
+               margin: 20px;
+            }
+
+            iframe{
+               float: left;
+               display: block;
+               margin-top:20px;
+               margin-left: 20px;
+               margin-bottom: 20px;
+               margin-right: 20px;
+            } 
+
+            li img{
+               margin:40px;
+            }
+
+            .image-set{
+               width:1180px;
+               height: 1200px;
+               margin-left: -300px;
+               margin-right: -200px;
+               background-color: white;
+            }
+
+            .image-set1, .image-set2{
+               margin-left: 0px;
+               margin-right: 0;
+            }
+
+
+            #bg-change{
+               background-color: white;
+            }
+
+            #white-bg{
+               width: 1180px;
+               height: 600px;
+               margin-left: -300px;
+               background-color: white;
+            }
+
+            #p2{
+               padding-top: 50px;
+               padding-left: 30px;
+               padding-right: 30px;
+               font-family: 'Roboto', sans-serif;
+               font-size: 25px;
+               font-weight: 20px;
+            }
+
+            .section2-wrap{
+              width: 1340px;
+              height: 1900px;
+              background-color: #DC143C; 
+              color: #FFFFE0;
+              margin-left: -400px;
+            }
+           
+
+            #p3{
+               margin-top: 30px;
+               margin-left: 40px;
+               margin-right: 80px;
+               font-size: 25px;
+            }
+
+            .div1-group{
+               display: inline-block;
+            }
+
+            .div2-group{
+               display: inline-block;
+               margin-top: 200px;
+               margin-right: 20px;
+               margin-left: 20px;
+            }
+
+            .div3-group{
+               display: inline-block;
+               margin-top: 100px;
+               margin-left: 20px;
+            }
+
+            #h1{
+               text-align: center;
+               font-size: 50px;
+            }
+
+            .section3-wrap{
+               margin-top: 150px;
+               background-color: #E0FFFF;
+               height: 2250px;
+               padding-top: 50px;
+               padding-left: 100px;
+               padding-right: 100px;
+               color:black;
+               font-family: 'Comfortaa', cursive;
+            }
+
+            .div4-group{
+               display: inline-block;
+               margin-left: 20px;
+               margin-right: 0px;
+            }
+           
+            #d4{
+               background-color: white;
+               width: 600px;
+               height: 400px;
+               margin-top: -525px;
+               margin-left:550px;
+            }
+
+            #p4{
+               padding-top: 20px;
+               padding-left: 30px;
+               padding-right: 30px;
+               line-height: 1.4em;
+            }
+
+            #heading2{
+               padding-top: 20px;
+            }
+
+            #heading3{
+               font-family: 'Comfortaa', cursive;
+               font-size: 20px;
+               margin-top: 0px;
+
+            }
+
+
+            .div5-group{
+               margin-top: 100px;
+               display: inline-block;
+            }
+
+            #heading4{
+               text-align: center;
+               margin-top: 100px;
+               padding-left: 20px;
+               padding-right: 20px;
+            }
+
+            #d5{
+               margin-top: 40px;
+               line-height: 1.3em;
+            }
+
+            .div6-group{
+               display: inline-block;
+            }
+
+            .section4-wrap{
+               width:1340px;
+               height:880px;
+               margin-top:-60px;
+               background-image: linear-gradient(to top right, cyan , green, yellow);
+            }
+
+            
+
+            #heading5{
+               margin-top: 20px;
+               text-align: center;
+               font-size: 80px;
+            }
+
+            .section5-wrap{
+               margin-top: -35px;
+               width:1340px;
+               height: 1000px;
+               background-color: white;
+            }
+
+            
+            #heading6{
+               padding-top: 60px;
+               text-align: center;
+               font-size: 40px;
+               color:black;
+               font-size: 50px;
+            }
+
+            .p5{
+                padding-top: 20px;
+                padding-left: 120px;
+                line-height: 1.5em;
+                font-size: 20px;
+                font-family: 'Quicksand', sans-serif;
+                color: black;
+            }
+
+            #heading7{
+               color: black;
+               font-family: 'Quicksand', sans-serif;
+               padding-top: 10px;
+               padding-left: 120px;
+               font-size: 20px;
+            }
+
+            #list2{
+               list-style-type: circle;
+               color:black;
+               font-family: 'Quicksand', sans-serif;
+               padding-top: 10px;
+               padding-left: 120px;
+               line-height: 1.5em;
+               font-size: 20px;
+            }
+
+            .div7-group{
+               display: inline-block;
+            }
+
+            #heading8{
+               color:black;
+               padding-top: 30px;
+               text-align: center;
+               font-size: 40px;
+            }
+
+            #heading9{
+               color:black;
+               text-decoration: line-through;
+               font-size: 30px;
+               text-align: center;
+            }
+
+            #heading10{
+               color: black;
+               font-size: 30px;
+               text-align: center;
+            }
+
+            .section6-wrap{
+               background-image: linear-gradient(to right, mediumslateblue,gray);
+               width:1340px;
+               height:1800px;
+            }
+
+            #heading11{
+               color:white;
+               margin-top: -10px;
+               padding-top: 40px;
+               text-align: center;
+               font-size: 40px;
+               font-family: 'Quicksand', sans-serif;
+            }
+
+            .round-image1{
+               border-radius: 50%;
+               margin-left: 42%;
+
+            }
+
+            .d8-textbox{
+                width:500px;
+                height:380px;
+                background-color: white;
+                margin-left: 8%;
+                margin-top: -72px; 
+            }
+
+            .hr1{
+              border-top: 1px solid #808080;
+              width:200px;
+            }
+
+            .hr2{
+              border-top: 1px solid #808080;
+              width:200px;
+            }
+
+            #p6{
+               color: #708090;
+               padding-top: 10px;
+               padding-left: 25px;
+               font-size: 20px;
+               text-align: center;
+            }
+
+            .p7{
+               font-family: 'Quicksand', sans-serif;
+               text-align: center;
+               color: #708090;
+               padding-left: 170px;
+               font-weight: bold;
+            }
+
+            .p8{
+               font-family: 'Quicksand', sans-serif;
+               text-align: center;
+               padding-left: 30px;
+               color:#F08080;
+               font-weight: bold;
+            }
+             
+            .d8-end{
+               display: inline-block;
+            }
+
+            .div8-group{
+               display: inline-block;
+               padding-left: 60px;
+               padding-right: 30px;
+               margin-top: 50px;
+            }
+
+            .round-image2{
+               border-radius: 50%;
+               margin-left: 42%;
+               width:140px;
+            }
+
+            .round-image3{
+               border-radius: 50%;
+               margin-left: 42%;
+               width:150px;
+            }
+
+            .section7-wrap{
+               width:1344px;
+               height: 780px;
+               background-color: #1E90FF;
+               margin-top: -35px;
+            }
+
+            #heading12{
+               text-align: center;
+               font-family: 'Quicksand', sans-serif;
+               line-height: 1.5em;
+               font-size: 40px;
+               font-weight: bold;
+               padding-top: 20px;
+            }
+
+            .div9-group{
+               display: inline-block;
+               padding-left: 10px;
+            }
+
+            .div10-group{
+               display: inline-block;
+               padding-left: 10px;
+            }
+
+            .section8-wrap{
+               width:1340px;
+               height:600px;
+               background-color: white;
+            }
+
+            .div11-group{
+               display: inline-block;
+            }
+
+            #heading13{
+               font-family: 'Roboto', sans-serif;
+               font-size: 40px;
+               font-weight: bold;
+               color:black;
+               margin-top: -50px;
+            }
+
+            #p9{
+               color: #A9A9A9;
+               font-size: 20px;
+            }
+
+            .section9-wrap{
+               width:1340px;
+               height:900px;
+               margin-top: -40px;
+               background-image: linear-gradient(to top right, green, blueviolet);
+            }
+
+            #heading14{
+              padding-top: 40px;
+              padding-left: 25%;
+              font-family: 'Roboto', sans-serif;
+              color:#FFD700;
+              font-size:50px;
+              font-weight: 2000px;
+            }
+  
+            .d9{
+               width:800px;
+               height:600px;
+               background-color: white;
+               border-radius: 20px;
+               margin-left: 23%;
+            }
+
+            #heading15{
+               color: black;
+               font-size: 40px;
+               font-weight: bold;
+               font-family: 'Quicksand', sans-serif;
+               text-align: center;
+               padding-top: 20px;
+            }
+
+            #p10{
+               margin-left: 30px;
+               padding-left: 30px;
+               font-family: 'Roboto', sans-serif;
+               font-size: 20px;
+               color: black;
+               font-weight: 200px;
+            }
+
+            .section10-wrap{
+               width:1340px;
+               height:800px;
+               margin-top: -35px;
+               background-color: #DCDCDC;
+            }
+
+            #heading16{
+               padding-top: 80px;
+               font-family: 'Quicksand', sans-serif;
+               text-align: center;
+               font-size:40px;
+               color: black;
+               font-weight: 200px;
+            }
+
+            #p11{
+               font-family: 'Roboto', sans-serif;
+               font-size: 20px;
+               line-height: 1.2em;
+               color: black;
+               padding-top: 20px;
+            }
+
+            .div12-group{
+               display: inline-block;
+            }
+
+            .section11-wrap{
+               width: 1340px;
+               height: 1800px;
+               margin-top:-30px;
+               background-color: white;
+            }
+           
+            #heading17{
+               text-align: center;
+               font-size: 40px;
+               font-family: 'Roboto', sans-serif;
+               padding-top: 100px;
+               color:black;
+               font-weight: bold;
+            }
+
+            .div13-group{
+               display: inline-block;
+            }
+
+
+            #p12{
+               font-family: 'Roboto', sans-serif;
+               font-size: 24px;
+               padding-top: 30px;
+               padding-left: 50px;
+               padding-bottom: 30px; 
+               color: black; 
+            }
+
+            #heading18{
+               text-align: center;
+               font-size:60px;
+               padding-top: 180px;
+               color: black;
+               font-weight: bold;
+            }
+
+            #p13{
+               font-family: 'Roboto', sans-serif;
+               font-size: 16px;
+               padding-top: 10px;
+               padding-left: 10px;
+               padding-bottom: 20px; 
+               color: black; 
+            }
+
+            .div14-group{
+               display: inline-block;
+               margin-left: 30px;
+               margin-top: -10px;
+            }
+
+            .d10{
+               width:900px;
+               height: 150px;
+               border-radius: 70px;
+               background-color: #DCDCDC;
+               margin-left: 15%;
+               margin-top: 80px;
+            }
+
+            #p14{
+               color: black;
+               font-family:'Quicksand', sans-serif;
+               font-size:20px; 
+               padding-left: 60px;
+               padding-top: 20px;
+            }
+
+            .section12-wrap{
+               width: 1340px;
+               height:1600px;
+               margin-top: -40px;
+               background-color: #483D8B;
+            }
+
+            #heading19{
+               text-align: center;
+               color: white;
+               font-size:50px;
+               padding-top: 50px;
+               font-family: 'Rubik', sans-serif;
+            }
+
+            #heading20{
+               text-align: center;
+               color: white;
+               font-size:30px;
+               padding-top: 20px;
+               font-family:  'Quicksand', sans-serif;
+            }
+
+            #heading21{
+               color: #F0E68C;
+               font-size:30px;
+               padding-top: -20px;
+               padding-left: 20px;
+               font-family: 'Rubik', sans-serif;
+            }
+
+            #p15{
+               color:white;
+               font-family:'Quicksand', sans-serif;
+               font-size:20px;
+               padding-top: 20px;
+               padding-left: 20px;
+               margin-top: -20px;
+               line-height: 1.3em;
+
+            }
+
+
+            .div15-group{
+               display: inline-block;
+               padding-left: 100px;
+
+            }
+
+
+            .section13-wrap{
+               width: 1340px;
+               height: 1500px;
+               margin-top: -30px;
+               background-color: white;
+            }
+
+            #heading22{
+               padding-top: 100px;
+               color: black;
+               font-family: 'Rubik', sans-serif;
+
+               text-align: center;
+               font-size: 40px;
+            }
+
+            #heading23{
+               font-family:'Quicksand', sans-serif;
+               color: black;
+               font-size: 20px;
+            } 
+
+            .div16-group{
+               display: inline-block;
+               padding: 70px;
+            }
+
+            .div17-group{
+               display: inline-block;
+               padding: 70px;
+            }
+
+            .section14-wrap{
+               width: 1340px;
+               height: 1200px;
+               margin-top: -30px;
+               background-image: linear-gradient(to top right, royalblue, navy);
+            }
+
+            #heading24{
+               padding: 50px;
+               font-family: 'Rubik', sans-serif;
+               text-align: center;
+               color:white;
+            }
+
+            #heading25{
+               padding: 50px;
+               font-family: 'Rubik', sans-serif;
+               text-align: center;
+               color:#DC143C;
+               font-size: 50px;
+               margin-top: 25px;
+               padding-bottom: 15px;
+            }
+
+            #btn1{
+               width: 300px;
+               height: 80px;
+               background-color: #FFD700;
+               border-radius: 40px;
+               margin-left: 42%;
+            }
+
+            .section15-wrap{
+                  width: 1340px;
+                  height: 2000px;
+                  background-color: white;
+            }
+
+            .div18-group{
+               display: inline-block;
+               margin-left: 50px;
+               margin-top: 50px;
+            }
+
+            #heading26{
+               color: black;
+               font-family: 'Rubik', sans-serif;
+               font-size: 25px;
+               margin-left: 20px;
+            }
+
+            #p16{
+               color: black;
+               font-family: 'Quicksand', sans-serif;
+               font-size: 20px;
+            }
+
+            .div19-group{
+               display: inline-block;
+               margin-top: 200px;
+               margin-left: 80px;
+            }
+
+            .div20-group{
+               display:inline-block;
+               margin-top:100px;
+               margin-left: 60px;
+            }
+
+            .div21-group{
+               display: inline-block;
+            }
+
+            .section16-wrap{
+               width: 1340px;
+               height: 800px;
+               margin-top: -30px;
+               background-image: linear-gradient(to top right, deepskyblue,   chartreuse);
+            }
+
+            #heading27{
+               font-family: 'Rubik', sans-serif;
+               font-size: 30px;
+               text-align: center;
+               color: black;
+               padding-top: 50px;
+               line-height: 1.5em;
+            }
+
+            #p17{
+               color: black;
+               font-family: 'Quicksand', sans-serif;
+               font-size: 20px;
+               padding-left: 60px;
+            }
+
+            .section17-wrap{
+                  width:1340px;
+                  height:1800px;
+                  margin-top: -30px;
+                  background-color: #483D8B;
+            }
+
+            #heading28{
+               font-family: 'Rubik', sans-serif;
+               font-size: 30px;
+               text-align: center;
+               color: white;
+               padding-top: 50px;
+               line-height: 1.5em;
+            }
+
+
+            .round-image4{
+               border-radius: 50%;
+               width:200px;
+               margin-left: 43%;
+               margin-top: 20px;
+
+            }
+
+            .d11-textbox{
+               width: 600px;
+               height: 870px;
+               background-color: white;
+               margin-left: 28%;
+               margin-top: -100px;
+            }
+
+            #p18{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 18px;
+               color: #696969;
+               padding-left: 20px;
+               padding-right: 20px;
+               padding-top: 20px;
+               font-weight: bold;
+            }
+
+            .hr3{
+              border-top: 1px solid #808080;
+              width:400px;
+            }
+
+            .section18-wrap{
+               width: 1340px;
+               height: 3300px;
+               margin-top: -30px;
+               background-color:white;
+            }
+
+            #heading29{
+               font-family: 'Rubik', sans-serif;
+               font-size: 40px;
+               padding-top: 60px;
+               text-align: center;
+               color: black;
+               line-height: 1.5em;
+            }
+
+            #p19{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 20px;
+               color:black;
+               margin-top: -60%;
+               line-height: 1.3em;
+            }
+
+            .div22-group{
+               display: inline-block;
+               padding-left: 40px;  
+            }
+
+            #heading30{
+               font-family: 'Rubik', sans-serif;
+               font-size: 50px;
+               color: black;
+               font-weight: bold;
+               text-align: center;
+               padding-top: 60px;
+            }
+
+            #p20{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 20px;
+               color:black;
+               padding-left: 15%;
+               padding-right: 15%;
+               line-height: 1.2em;
+               font-weight: bold;
+            }
+            
+            #p21{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 30px;
+               color:#FA8072;
+               padding-left: 30%;
+               padding-top: 5%;
+               padding-right: 15%;
+               font-weight: bold;
+            }
+
+            #p22{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 30px;
+               color:black;
+               padding-left: 25%;
+               padding-right: 15%;
+               font-weight: bold;
+            }
+
+            .div23-group{
+               display: inline-block;
+            }
+
+            #p23{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 20px;
+               color:black;
+               margin-top: -60%;
+               margin-left:70px;
+               margin-right: 10px;
+               line-height: 1.3em;
+            }
+
+            .section19-wrap{
+               width: 1340px;
+               height:5800px;
+               margin-top: -40px;
+               background-color: #DCDCDC;
+            }
+
+            .div24-group{
+               display: inline-block;
+               padding-left: 10px;
+            }
+
+            #heading31{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 30px;
+               color: black;
+               font-weight: bold;
+               padding-top: 30px;
+               margin-left:200px;
+               margin-right: 20px; 
+            }
+
+            #btn2{
+               font-family: 'Rubik', sans-serif;
+               font-size: 30px;
+               font-weight: bold;
+               background-color: #FF8C00;
+               color: black;
+               width:300px;
+               height:80px;
+               border-radius: 40px;
+               padding-left: 8px;
+               margin-left: 195px;
+               margin-top: 50px;
+            }
+
+            #p24{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 20px;
+               color:black;
+               padding-left:31%; 
+
+            }
+
+            .div25-group{
+               display: inline-block;
+            }
+
+            .d12{
+               width:1000px;
+               height: 700px;
+               background-color: #C0C0C0;
+               margin-left: 15%;
+               margin-top: 100px;
+            }
+
+            .div26-group{
+               display: inline-block;
+            }
+
+            #btn3{
+               font-family: 'Rubik', sans-serif;
+               font-size: 30px;
+               font-weight: bold;
+               background-color: #FF8C00;
+               color: black;
+               width:300px;
+               height:80px;
+               border-radius: 40px;
+               margin-left: 0px;
+               margin-top:100px;
+            }
+
+            #heading32{
+               color: black;
+               font-family: 'Quicksand', sans-serif;
+               font-size:30px;
+               margin-right: 100px;
+               font-weight: bold;
+            }
+
+            #heading33{
+               color: black;
+               font-family: 'Quicksand', sans-serif;
+               font-size:30px;
+               font-weight: bold;
+               text-decoration: line-through;
+               margin-right: 100px;
+            }
+
+            #p25{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 25px;
+               color:black;
+            }
+
+            #btn4{
+               font-family: 'Rubik', sans-serif;
+               font-size: 30px;
+               font-weight: bold;
+               background-color: #FF8C00;
+               color: black;
+               width:300px;
+               height:80px;
+               border-radius: 40px;
+               margin-top:100px;
+               margin-left: 200px;
+            }
+
+            #heading34{
+               color: black;
+               font-family: 'Quicksand', sans-serif;
+               font-size:30px;
+               margin-right: 100px;
+               font-weight: bold;
+               margin-left: 200px;
+            }
+
+            #p26{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 20px;
+               color:black;
+               margin-left: 200px;
+            }
+
+            .div27-group{
+               display: inline-block;
+            }
+
+            #heading34{
+               font-family: 'Quicksand', sans-serif;
+               font-size:40px;
+               font-weight: bold;
+               margin-top: 40px;
+            }
+
+
+            #btn5{
+               font-family: 'Rubik', sans-serif;
+               font-size: 30px;
+               font-weight: bold;
+               background-color: #FF8C00;
+               color: black;
+               width:300px;
+               height:80px;
+               border-radius: 40px;
+               margin-top:50px;
+            }
+
+            #heading35{
+               font-family: 'Quicksand', sans-serif;
+               font-size:40px;
+               font-weight: bold;
+               text-align: center;
+               margin-top: 40px;
+               color:black;
+            }
+
+            #p27{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 30px;
+               color:black;
+               margin-left: 400px;
+            }
+
+            #btn6{
+               font-family: 'Rubik', sans-serif;
+               font-size: 30px;
+               font-weight: bold;
+               background-color: #FF8C00;
+               color: black;
+               width:300px;
+               height:80px;
+               border-radius: 40px;
+               margin-top:20px;
+               margin-left: 37%;
+            }
+
+            #p28{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 30px;
+               color:black;
+               margin-left:25%;
+               margin-right:25%;
+               text-align: center;
+            }
+
+            #p29{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 30px;
+               color:black;
+               margin-left:38%;
+               margin-right:38%;
+               text-align: center;
+               text-decoration: line-through;
+            }
+
+            #heading36{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 25px;
+               color:black;
+               margin-left: 30%;
+            }
+
+            ol.list3 {
+               font-family: 'Rubik', sans-serif;
+               font-size: 16px;
+               color:black;
+               margin-left: 30%; 
+            } 
+
+            #heading37{
+               font-size: 50px;
+               color:black;
+               font-weight: bold;
+               text-align: center;
+               margin-top: 100px;
+            }
+
+            #heading38{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 25px;
+               color:black;
+               text-decoration: line-through;
+               margin-left: 38%;
+            }
+
+            #heading39{
+               font-family: 'Quicksand', sans-serif;
+               font-size: 18px;
+               color:black;
+               margin-left: 38%;
+            }
+
+            .section20-wrap{
+               width: 1340px;
+               height: 1600px;
+               background-image: linear-gradient(to bottom, black, darkblue, darkslateblue);
+            }
+
+            .round-image5{
+               width:250px;
+               height:200px;
+               margin-left: 40%;
+               margin-top: 10%;
+            }
+
+            .d13{
+               width:800px;
+               height: 700px;
+               background-color: #483D8B;
+               margin-left:20%;
+               margin-top: -100px;
+            }
+
+            #heading40{
+               font-family: 'Heebo', sans-serif;
+               text-align:center;
+               padding-top: 10%;
+               font-size: 40px;
+            }
+
+            #p30{
+               font-family: 'Heebo', sans-serif;
+               padding-left: 20px;
+               padding-right: 20px;
+               font-size: 20px;
+            }
+
+            .section21-wrap{
+               width:1340px;
+               height: 800px;
+               margin-top: -50px;
+               background-color: white;
+            }
+
+            #heading41{
+               font-family: 'Heebo', sans-serif;
+               text-align:center;
+               color: black;
+               padding-left: 20%;
+               padding-right: 20%;
+               padding-top: 10%;
+               font-size: 40px;
+            }
+
+            #p31{
+               font-family: 'Roboto', sans-serif;
+               color: black;
+               padding-top: 10%;
+               margin-left: 70px;
+               font-size: 20px;
+            }
+
+            .div28-group{
+               display: inline-block;
+            }
+
+            .section22-wrap{
+               width: 1340px;
+               height: 1200px;
+               margin-top: -30px;
+               background-color: #DCDCDC;
+            }
+
+            #heading42{
+               font-family: 'Heebo', sans-serif;
+               text-align:center;
+               color: black;
+               padding-top: 7%;
+               padding-left: 15%;
+               padding-right: 18%;
+               font-size: 40px;
+            }
+
+            #heading43{
+               font-family: 'Heebo', sans-serif;
+               text-align:center;
+               color: #FA8072;
+               padding-left: 18%;
+               padding-right: 18%;
+               font-size: 40px;
+            }
+
+            #p32{
+               font-family:'Quicksand', sans-serif; 
+               font-size: 20px;
+               padding-left:30%;
+               padding-right:10%;
+               color: black;
+               font-weight: bold;
+            }
+
+            #p33{
+               font-family:'Quicksand', sans-serif; 
+               font-size: 20px;
+               padding-left:10%;
+               padding-right:10%;
+               color: black;
+               text-align: right;
+               font-weight: bold;
+            }
+
+            .div29-group{
+               display: inline-block;
+               margin-top: 80px;
+            }
+
+            #p34{
+               font-family: 'Roboto', sans-serif;
+               font-size:20px;
+               padding-left: 20%;
+               padding-right: 20%;
+               text-align: center;
+               color: black;
+            }
+
+            .section23-wrap{
+               width: 1340px;
+               height:800px;
+               margin-top: -30px;
+               background-image: linear-gradient(to top right, deepskyblue, chartreuse);
+            }
+
+            #heading44{
+               font-family: 'Heebo', sans-serif;
+               font-size: 40px;
+               color:black;
+               text-align: center;
+               padding-left: 21%;
+               padding-right: 20%;
+               padding-top: 7%;
+            }
+            
+            #p35{
+               font-family: 'Roboto', sans-serif;
+               font-size: 20px;
+               color: black;
+               padding-left: 140px;
+               
+            }
+
+            .div30-group{
+               display: inline-block;
+            }
+
+            .section24-wrap{
+               width: 1340px;
+               height: 2800px;
+               margin-top: -30px;
+               background-color: #DCDCDC;
+            }
+
+            #p36{
+               font-family: 'Roboto', sans-serif;
+               font-size: 20px;
+               color: black;
+               padding-left: 40px;
+            }
+
+            .div31-group{
+               display: inline-block;
+            }
+
+            #p37{
+               font-family: 'Roboto', sans-serif;
+               font-size: 20px;
+               color: black;
+               padding-left: 20%;
+               padding-right: 20%;
+            }
+               
+
+            .d14{
+               width:540px;
+               height: 230px;
+               border-radius: 10px;
+               margin-left: 90px;
+               background-color: #C0C0C0;
+            }
+
+            .div32-group{
+               display: inline-block;
+            }
+
+            .round-image6{
+               width:70px;
+               height: 70px;
+               border-radius: 50%;
+               border:6px solid #C0C0C0;
+               margin-left: -27px;
+               margin-top:180px;
+            }
+
+            .quotes{
+               width:50px;
+               height: 50px;
+               margin-bottom: 200px;
+               margin-right: 90px;
+            }
+
+            #p38{
+               font-family: 'Comfortaa', cursive;
+               font-size: 16px;
+               padding-left: 40px;
+               padding-right: 10px;
+               color: black;
+               margin-top: -180px;
+            }
+
+            #heading45{
+               font-family: 'Heebo', sans-serif;
+               font-size: 25px;
+               color:black;
+               text-align: center;
+               padding-left: 30%;
+               padding-right: 30%;
+               padding-top: 10%;
+            }
+
+            #heading46{
+               font-size:25px;
+               color: black;
+               padding-left: 25%;
+               padding-right: 40%;
+               padding-top: 5%;
+            }
+
+            #p39{
+               font-size: 15px;
+               padding-left: 25%;
+               padding-right: 25%;
+               color: black;
+               margin-top: 0px; 
+               line-height: 1.5em; 
+            }
+
+            #p40{
+               font-size: 12px;
+               padding-left: 22%;
+               padding-right: 25%;
+               color: #2F4F4F;
+               margin-top: 0px; 
+               line-height: 1.0em; 
+            }
+
+            #p41{
+               font-size: 18px;
+               text-align:center;
+               padding-left: 25%;
+               padding-right: 25%;
+               color: black;
+               margin-top: 0px; 
+               line-height: 1.0em; 
+            }
+
+            .section25-wrap{
+               width:1342px;
+               height:100px;
+               margin-top: -30px; 
+               background-color: #708090;             
+            }
+   
+            #heading47{
+               font-size:12px;
+               color:white;
+               padding-left: 100px;
+               padding-top: 2.5%;
+            }
+
+            #d15{
+               margin-left: 500px;
+            }
+
+            .div33-group{
+               display: inline-block;
+            }
+
+
+            
+       </style>
+   	</head>
+
+   	<body>
+            <p class="back-red">
+            	<strong>Version 2.0 is here</strong><br>
+            	<strong>Be ready to work from home during this lockdown</strong></p>
+            <br>
+            <br>
+            <h1 id="heading-text">Unless You Make This Change To Your Website IMMEDIATELY, <u>You Could Be Sued</u>, (Even Extorted) For <i>Thousands of Dollars</i> Very Soon!</h1>
+
+            <h2 id="heading-description">People All Over Are Losing A Ton of Money Because of This. But, I’m Going To Show You How To Make Sure It Never Happens To You AND How You Can Turn This Into A True Six Figure Income!</h2>
+
+
+
+            <br><br><br>
+            
+            <div class="video-area">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/47uFV7LZHgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>
+
+            <p class="red-text">Limited Time Special Offer</p>
+
+            <button class="btn">Get Access Now</button>
+ 
+             <div id="bg-white">
+                <p id="p1">Here is ADA in The News!</p>
+
+                <div class="t1">
+ 
+                   <ul>
+
+                      <li><h2 style="text-align : center; margin-top: -10px;">Fox Business News</h2>  
+                          <iframe id="video1" width="560" height="315" src="https://www.youtube.com/embed/Syt6H858D5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </li> <br><br>
+
+                      <li><h2 style="text-align : center; margin-top: -10px;">ABC News</h2>
+                           <iframe id="video2" width="560" height="315" src="https://www.youtube.com/embed/N1f6pW_G_BM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </li>
+
+                   </ul>
+                </div>
+
+                <div class="t2">
+
+                     <ul>
+
+                      <li><h2 style="text-align : center; margin-top: -10px;">NBC News</h2>
+                           <iframe id="video3" width="560" height="315" src="https://www.youtube.com/embed/3uM66zko3wM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </li>
+
+                      <li><h2 style="text-align : center; margin-top: -10px;">National Association of Realtors</h2>
+                           <iframe id="video4" width="560" height="315" src="https://www.youtube.com/embed/BJsJOHvjpJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </li>
+
+                   </ul>
+
+
+                 </div>
+            </div>
+                 
+
+         <div class="part-2">
+            <h2 style="text-align: center; font-size: 50px">No one is safe.</h2>
+            <h2 style="text-align: center; font-size: 50px">Doesn't Matter if you're.</h2>
+
+         </div>
+
+         <div class="image-set">
+            <div class="image-set1">
+               <ul>
+                  <li><img alt="CEO" width="150" height="150" title="CEO" src="https://getadacomply.com/wp-content/uploads/2019/12/CEO.png"> <h2 style="text-align : center; margin: -12px;">A CEO</h2></li>
+                  <li><img alt="Online Marketer" width="150" height="150" title="Online Marketer"src="https://getadacomply.com/wp-content/uploads/2019/12/online-shop.png"> <h2 style="text-align : center; margin: -12px; ">An Online Marketer</h2></li>
+                  <li><img alt="Consultant" width="150" height="150" title="Consultant"src="https://getadacomply.com/wp-content/uploads/2019/12/consulting.png"><h2 style="text-align : center; margin: -12px;"> A Local Consultant</h2></li>
+                  <li><img alt="Web Developer" width="150" height="150" title="Developer" src="https://getadacomply.com/wp-content/uploads/2019/12/web-developer.png"> <h2 style="text-align : center; margin: -12px;">A Web Developer</h2></li>
+                  <li><img alt="Marketer" width="150" height="150" title="Marketer"src="https://getadacomply.com/wp-content/uploads/2019/12/affiliate.png"><h2 style="text-align : center; margin: -12px;"> An Affiliate Marketer</h2></li>
+               </ul>
+            </div>
+
+
+            <div class="image-set2">
+               <ul>
+                  <li><img alt="An Ecommerce Store owner" width="150" height="150" title="Ecommerce Store owner" src="https://getadacomply.com/wp-content/uploads/2019/12/ecommerce.png"> <h2 style="text-align : center; margin: -12px;"> Store owner</h2></li>
+                  <li><img alt="A Doctor" width="150" height="150" title="Doctor"src="https://getadacomply.com/wp-content/uploads/2019/12/doctor.png"> <h2 style="text-align : center; margin: -12px;">A Doctor</h2></li>
+                  <li><img alt="A Local Business Owner" width="150" height="150" title="A Local Business Owner"src="https://getadacomply.com/wp-content/uploads/2019/12/local-Business-Owner.png"><h2 style="text-align : center; margin: -12px;">Local Business Owner</h2></li>
+                  <li><img alt="A Realtor" width="150" height="150" title="Realtor" src="https://getadacomply.com/wp-content/uploads/2019/12/real-estate.png"> <h2 style="text-align : center; margin: -12px;">A Realtor</h2></li>
+                  <li><img alt="Any Type of Profession" width="150" height="150" title="Any Type of Profession" src="https://getadacomply.com/wp-content/uploads/2019/12/Icon-Single.png"><h2 style="text-align : center; margin: -12px;"> Any Type of Profession</li>
+               </ul>
+            </div>
+
+            <p id="text2">
+               <h1  style= "text-align: center; margin-top: 200px; margin-left: 180px; margin-right: 180px;" >Plainly Put... If You Have <i> A Website or Ever Plan on Having One,</i> Then You Need To <u>Read Every Single Word</u> On This Page.</h1>
+
+               <h2 style="text-align: center ; margin-top: 100px; margin-left: 200px; margin-right: 200px;">Because It Can Be <i>The Difference</i> Between Whether You Keep or Lose 10’s of Thousands of Dollars!</h2>
+
+               <h1 style= "text-align: center; margin-top: 100px; margin-left: 200px; margin-right: 200px;">So, How Would You Like To Make Some Serious Income Helping Businesses With Only About An <i>Hour’s Worth of Work?</i></h1>
+
+            </p>
+
+         </div>
+
+         <div id="bg-change">
+             <div id="white-bg">
+               <p id="p2"> 
+                  Hey, Mario Brown & Ifiok here,<br><br>
+
+                  <br>If you are doing any type of business online that requires you to have a website, then you need to pay very close attention to what I’m about to say.<br><br>
+
+                  Because right now, there are individuals who are losing a significant chunk of their bank accounts because they are ignorant of a certain set of compliance laws that their websites need to abide by.<br><br>
+
+                  And I’m almost willing to bet that your website(s) fall in the same category.<br><br>
+
+                  However, there is a silver lining to this problem. One that one person used to create an additional $50,000 in only 7 weeks.<br><br>
+
+                  I’ll share more about that in a moment, but first...<br><br>
+               </p> 
+             </div>
+
+         </div>
+
+        
+
+         <div class="section2-wrap">
+             <div class= "section2">
+                <h1 style="text-align: center;">GASP!</h1>
+                <h1 style="text-align: center;">Their Ignorance Cost Them 10’s<br> of Thousands of Dollars... <i>Are You Next?</i></h1>
+                <br><br>
+                
+                <div class="div1-group">
+                  <p id="p3">
+                   It’s sad because website owners are being targeted and<br> sued for a law that they are ignorant of.<i><b> But as you’ll<br> soon see, ignorance of this law is no excuse.</b></i><br> Frankly speaking, if your site(s) don’t line up with this law<br> correctly, you could have to tap into your nest egg or<br> retirement fund...if you have one.<br><br>
+
+                   And if you don’t? Well...may there be mercy on you.<br><br>
+
+                   Just take a look at some of the people who discovered this the hard way…
+                  </p>
+                </div>
+
+
+                <div class="div1-group">
+                     <img width="400px" height="450px" src="https://getadacomply.com/wp-content/uploads/2019/12/Tes2-2.png">
+                </div>
+
+
+                <div class="div2-group">
+                     <img width="612" height="200px" src="https://designbundle.io/wp-content/uploads/2019/11/Screenshot-2019-11-04-at-2.23.43-PM.png">
+                </div>
+
+
+                <div class="div2-group">
+                     <img width="612" height="200px" src="https://designbundle.io/wp-content/uploads/2019/11/Screenshot-2019-10-11-at-8.53.33-PM.png">
+                </div>
+
+                <div class="div3-group">
+                    <div>
+                     <img width="600px" height="200px" src="https://designbundle.io/wp-content/uploads/2019/11/Screenshot-2019-10-11-at-8.48.00-PM.png">
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                     <img width="600px" height="300px" src="https://designbundle.io/wp-content/ nnnuploads/2019/11/Screenshot-2019-11-11-at-11.06.58-PM.png">
+                    </div>
+                </div>
+
+
+                <div class="div3-group">
+                     <img width="600" height="500" src="https://designbundle.io/wp-content/uploads/2019/11/Screenshot-2019-11-11-at-11.08.02-PM.png">
+                </div>
+
+             <div>
+         </div>
+
+         <div class="section3-wrap">
+            <h1 id="h1">It's Only A Matter of Time Before<br>They Catch Up To You</h1>
+
+             <div class="div4-group">
+                <img style="margin-left: 0px" width="500" height="500" src="https://getadacomply.com/wp-content/uploads/2019/12/77429-3-1.jpg">
+               
+                <div id="d4">
+                     <h2 id="heading2">And When They Do? It’s Game Over</h2>
+
+                     <p id="p4">In short, you need to be ADA compliant. Because authorities aren’t messing around one bit. If you think it’s a game, let me assure you that it’s not. Everything is coming under scrutiny. Websites, apps, and pdfs included. All of these are susceptible to lawsuits and litigation.</p>
+
+                </div>
+             </div>
+
+
+
+             <div class="div5-group">
+                     <div>
+                        <h2 id="heading3"><b>Just take a look at these statistics when it comes to ADA compliance:</b></h2>
+                        <br>
+                        <ol>
+                           <li>Lawsuits are mounting and are expected to increase…</li><br><br>
+                           <li>The Department of Justice has backed ADA website Lawsuits</li><br><br>
+                           <li>$6,000,000 was the Settlement Cost of a Recent Case</li><br><br>
+                           <li>$50,000+ is the Average Legal Cost to Small Businesses</li><br><br>
+                           <li>181% was the Increase in ADA Title III Lawsuits filed in 2018</li><br><br>
+                        </ol>
+                     </div>
+             </div>
+
+             <div class="div5-group">
+               <img  style="margin-top: 180px" width="400" height="400" src="https://getadacomply.com/wp-content/uploads/2019/12/lawsuit-cost3.png">
+             </div>
+
+
+            <div>
+               <h1 id="heading4">Miss Just One of These MANY Requirements And It’s Game Over!</h1>
+            </div>
+            <div class="div6-group">
+               <div id="d5">
+                   <p>​
+                     When I learned about how businesses were getting sued left and<br> right, to say that I was shocked was an understatement. But<br> even with my shock, I knew I had to make sure I protected myself<br> now and in the future.<br><br>
+
+                     So I did a ton of research. Looking EXACTLY for what I needed to<br> do in order to be compliant.<br><br>
+
+                     And I found that you have to meticulously deal with each image,<br> video file, audio file, and more in a CERTAIN way so that your site<br> is truly ADA compliant.<br><br>
+
+                     Not to mention that you need to make sure that you:<br><br>
+                   </p>
+
+                   <ol>
+                      <li>Lawsuits are mounting and are expected to increase…</li><br>
+                      <li>The Department of Justice has backed ADA website Lawsuits</li><br>
+                      <li>$6,000,000 was the Settlement Cost of a Recent Case</li><br>
+                      <li>$50,000+ is the Average Legal Cost to Small Businesses</li><br>
+                      <li>181% was the Increase in ADA Title III Lawsuits filed in 2018</li><br>
+
+                   </ol>
+               </div>
+            </div>
+
+            <div class="div6-group">
+               <img width="500" height="500" src="https://getadacomply.com/wp-content/uploads/2019/12/Illustration23-1.png">
+            </div>
+
+            <div style="margin-top: 40px; line-height: 1.5em">
+               <p>Not getting any of these right AT ANY MOMENT can cause you INTENSE legal pressure and tens of thousands of dollars.<br>
+                  <br>
+
+                  That’s why I set out to create a solution that can help you be compliant asap without the need for a lot of tedious effort. Just use this solution and all your ADA compliant headaches will go away...<br>
+               </p>
+            </div>
+         </div>
+   
+        
+         <div class="section4-wrap">
+            <h2 id="heading5">Presenting</h2>
+            <div class="d7">
+               <img style="margin-left: 400px" width="550px" height="200px" src="https://getadacomply.com/wp-content/uploads/2020/04/imgpsh_fullsize_anim.png">
+            </div>
+
+            <div>
+               <img style="margin-left: 400px " width="500px" height="500px" src="https://getadacomply.com/wp-content/uploads/2020/04/ADA-Comply-2.0-Box.png">
+            </div>   
+         </div>
+      
+
+         <div class="section5-wrap"> 
+             <h1 id="heading6">So, why should you invest In<br> ADA Comply 2.0 Today?</h1>
+
+             <div class="div7-group">
+               <div class="d8">
+                  <p class="p5">There’s so many benefits to having access to ADA Comply. After<br> you get access today, the only regret you’ll have is that you wish<br> you would have had access sooner.</p>
+
+                  <h2 id="heading7">For example, you’ll be able to:</h2>
+                  <ol id="list2">
+                     <li><b>Avoid Nasty and Costly Lawsuits That Suck Your Bank Accounts Dry</b></li><br>
+                     <li><b>Rank Higher In The Search Engines With Less Effort</b></li><br>
+                     <li><b>Service and Profit From the $650 Billion Disabled Market With A Capital ‘B’.</b></li><br>
+                  </ol>
+               </div>
+
+             </div>
+
+             <div class="div7-group">
+               <img width="500px" height="400px" src="https://getadacomply.com/wp-content/uploads/2019/12/SecImg4B.png">
+             </div>
+
+             <h1 id="heading8">
+               Limited Time Special Offer
+             </h1>
+
+             <h2 id="heading9">
+               Normal Price: $97/year
+             </h2>
+
+             <p id="heading10">
+               Today Only: Low <b><u>One Time</u> Fee</b>
+             </p>
+         </div>
+
+         <div class="section6-wrap">
+              <h1 id="heading11">Take a Look At What These Current Users<br>Are Saying About ADA Comply!</h1>
+              <!-- div 1 , two images Jessica and Bob-->
+              <div class="div8-group">
+                  <div class="d8-img">
+                     <img class="round-image1" src="https://getadacomply.com/wp-content/uploads/2019/12/jessica-skype.png">
+                     <div class="d8-textbox">
+                          <img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdgm3HozV7eSzQ6iFjA5qz7j2SbX83_tZTXC2XepF7nQL-Ujc&usqp=CAU">
+                          <p id="p6">Another practical product from you guys... So I <br>partnered with a facebook friend who is a lawyer. We<br> already have over <u>11 clients</u> booked this week. <b>1 has<br> paid ($5,000),</b><i> others will be paying before the<br> month ends.</i> From the look of things, <b>we should hit<br><u>$100k</u> before the year ends.</b> This definitely worth <br>every dime we paid. </p>
+                          <hr class="hr2">
+                         
+                         <div class="d8-end">
+                           <p class="p7">Jessica</p>
+                         </div>
+                         <div class="d8-end">
+                           <p class="p8">V1 User</p>
+                         </div>
+                     </div>
+                  </div>         
+              </div>
+
+              <div class="div8-group">
+                  <div class="d8-img">
+                     <img class="round-image2" src="https://getadacomply.com/wp-content/uploads/2019/12/bobs.png">
+                     <div class="d8-textbox">
+                          <img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdgm3HozV7eSzQ6iFjA5qz7j2SbX83_tZTXC2XepF7nQL-Ujc&usqp=CAU">
+                          <p id="p6">I shared the powerpoint proposal you provided with<br> the owner of a local restaurant in New York. He was<br> stoked.<b> We fixed a skype call for next week so we<br> can conslude on the fees.</b> Will share the feedback<br> and screenshot when we conclude. He went home to <br>google ADA compliance and he got scared. Haha...<br> feeling guilty, but I the law is the law.</p>
+                          <hr class="hr2">
+                         
+                         <div class="d8-end">
+                           <p class="p7">Bob</p>
+                         </div>
+                         <div class="d8-end">
+                           <p class="p8">V1 User</p>
+                         </div>
+                     </div>
+                  </div>         
+              </div>
+
+              <!-- div 1 , two images Bob and Steeve-->
+              <div class="div8-group">
+                  <div class="d8-img">
+                     <img class="round-image3" src="https://getadacomply.com/wp-content/uploads/2020/04/Kelvin.png">
+                     <div class="d8-textbox">
+                          <img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdgm3HozV7eSzQ6iFjA5qz7j2SbX83_tZTXC2XepF7nQL-Ujc&usqp=CAU">
+                          <p id="p6">This is pure gold. I have <b>absolutely no regrets for my<br> purchase.</b> I have activated it on all my websites. This<br> has saved me thousands in fees If I were to pay for<br> this service. <i>I am looking forward to the new<br> and improved version.</i> With this I will be able to prospect<br> for businesses that needs ADA complaince service<br> and offer the service to them. </p>
+                          <hr class="hr2">
+                         
+                         <div class="d8-end">
+                           <p class="p7">Bob</p>
+                         </div>
+                         <div class="d8-end">
+                           <p class="p8">V1 User</p>
+                         </div>
+                     </div>
+                  </div>         
+              </div>
+
+              <div class="div8-group">
+                  <div class="d8-img">
+                     <img class="round-image2" src="https://getadacomply.com/wp-content/uploads/2019/12/tari.png">
+                     <div class="d8-textbox">
+                          <img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdgm3HozV7eSzQ6iFjA5qz7j2SbX83_tZTXC2XepF7nQL-Ujc&usqp=CAU">
+                          <p id="p6">I have been a freelancer and local marketing<br> consultant for 1 year. <b>I made more in 1 week from<br> ADA compliance service than I have made in 12<br> months.</b> Finally seeen a service I can sell. Am tired of<br> web design, seo and bot services which are already<br><i> over crowded with service providers who are willingly<br> to 'work for food'.</i></p>
+                          <hr class="hr2">
+                         
+                         <div class="d8-end">
+                           <p class="p7">Steve</p>
+                         </div>
+                         <div class="d8-end">
+                           <p class="p8">V1 User</p>
+                         </div>
+                     </div>
+                  </div>         
+              </div>
+
+               <!-- div 1 , two images Paul and Anita-->
+              <div class="div8-group">
+                  <div class="d8-img">
+                     <img class="round-image3" src="https://getadacomply.com/wp-content/uploads/2020/04/paul.png">
+                     <div class="d8-textbox">
+                          <img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdgm3HozV7eSzQ6iFjA5qz7j2SbX83_tZTXC2XepF7nQL-Ujc&usqp=CAU">
+                          <p id="p6">I made<b> $4,500 from my first client.</b> I got to know<br> about you through your product contentburger<br> which gave me huge success. Adacomply is another<br> winner. I got this client the first week <i><b> working from<br> home</b> as everything is on <b>lockdown</b> here.</i> </p>
+                          <hr class="hr2">
+                         
+                         <div class="d8-end">
+                           <p class="p7">Paul</p>
+                         </div>
+                         <div class="d8-end">
+                           <p class="p8">V1 User</p>
+                         </div>
+                     </div>
+                  </div>         
+              </div>
+
+              <div class="div8-group">
+                  <div class="d8-img">
+                     <img class="round-image2" src="https://getadacomply.com/wp-content/uploads/2020/04/Anita.png">
+                     <div class="d8-textbox">
+                          <img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdgm3HozV7eSzQ6iFjA5qz7j2SbX83_tZTXC2XepF7nQL-Ujc&usqp=CAU">
+                          <p id="p6"><i>I upsold ADA compliance service to one of my social<br> media agency clients and he paid. <b> All I did was to<br> generate a report  and forward it to him. </b> It took me<br> less than 1 hour to fix his website. <b> ($1,500).</b> Never<br> knew making money could be this easy and fun.</i></p>
+                          <hr class="hr2">
+                         
+                         <div class="d8-end">
+                           <p class="p7">Anita</p>
+                         </div>
+                         <div class="d8-end">
+                           <p class="p8">V1 User</p>
+                         </div>
+                     </div>
+                  </div>         
+              </div>
+         </div>
+
+
+         <div class="section7-wrap">
+               <h2 id="heading12">Hear What Mario's Customers<br>Have To Say About His Products;</h2>
+                <div class="div9-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/3dQToeuM5v0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="div9-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/287MgfTnsI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="div9-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/_1h6zr7sWmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="div10-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/hFuZST8MLdA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+               <div class="div10-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/THUd6Hx8-b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+
+               <div class="div10-group">  
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/g04ElsoKEu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+         </div>
+
+
+         <div class="section8-wrap">
+            <div class="div11-group">
+               <img style=" padding :50px" width="600px" height="450px" src="https://getadacomply.com/wp-content/uploads/2019/12/vacation.jpg">
+            </div>
+
+            <div class="div11-group">
+               <div>
+                <h2 id="heading13"><b>This Is Great For Freelancers<br> Who Want To Travel The World<br> and Get Paid.</b></h2>
+               </div>
+               <div>
+                <p id="p9">If you’re like most freelancers, you love having freedom. Some<br> freelancers just want to travel and see the world. Live life on their<br> own terms.<br><br>
+
+                  That’s why tapping into ADA Comply will be great for you. You<br> could use ADA Comply to help businesses and do it from<br>anywhere in the world. Just a couple of clients a month is more<br>than enough to support a traveling lifestyle.<br><br>
+
+                Plus, you only have to spend about an hour setting everything<br> up! Then it’s back to the life of freedom you so greatly desire.<br><br></p>
+               </div>
+            </div>
+
+         </div>
+
+
+         <div class="section9-wrap">
+            <h1 id="heading14">​If You’re A Local Consultant, This<br> Could Boost Your Agency Big Time.</h1>
+
+            <div class="d9">
+               <h2 id="heading15">No More Competing In Saturated Niches.</h2>
+
+               <p id="p10">Listen, most local marketers just continue to offer services that are highly<br>  saturated. That’s why they don’t get anywhere. Sure, people need a<br> website and some SEO work done...and maybe even a bit of social media<br> here and there.<br><br>
+
+               But ADA compliance is a MUST. These local businesses can’t be without it<br> or they’ll get sued big time.<br><br>
+
+               This puts the leverage back in your hands.<br><br>
+
+               You’ll be offering a service that local businesses would be foolish to pass<br><br> up unless they want to pay the stupid tax.<br><br>
+
+               Heck, you could even say that these businesses will chase you down<br> when they see how much they have to lose.<br><br>
+
+               But even if you already have some local clients, just think of the money<br> you can add on to your bottom line by offering ADA Comply to them as<br> well!</p>
+
+            </div>
+         </div>
+
+
+         <div class="section10-wrap">
+             <h1 id="heading16">Just Copy and Paste A Single Line of<br> Code And You’re Done In Minutes!</h1> 
+
+             <div class="div12-group">
+               <img style=" margin-left: 80px;, margin-top: 30px;"width="600px" height="450px" src="https://getadacomply.com/wp-content/uploads/2019/12/Paste-Code2-1.png">
+             </div>
+
+             <div class="div12-group">
+               <p id="p11">Can you do all of this without ADA Comply? Sure. But I wouldn't<br>recommend it. Because you will have to go through TONS AND<br> TONS of tedious tasks HOPING that you’ll get everything<br> compliant on your site.<br><br>
+
+               And even if you take care of current items on your site, what<br> about all the other pages, files, videos, audio files, and more that<br> are lurking in the dark recesses of your server that you’ve<br> forgotten about?<br><br>
+
+               To try and sort through each and every one of these items,<br> making sure they are ADA compliant could take you days or even<br> weeks!<br><br>
+
+               But with ADA Comply, you only need to copy and paste a single<br> line of code to your website and the software platform takes care<br> of everything else.<br><br>
+
+               Instead of spending weeks trying to do this yourself, (not to <br>mention the time wasted you could be spending on growing your<br> revenue) you could be done in only minutes!
+               </p>
+             </div>
+         </div>
+
+         <div class="section11-wrap">
+            <h1 id="heading17">ADA Comply 2.0  Is 100% Cloud<br> Based So There’s Nothing To Install.</h1>
+
+            <div class="div13-group">
+               <p id="p12">You won’t ever have to worry about downloading or installing<br> anything on your computer or your mobile device. ADA Comply<br> runs in the cloud so this way you know it will work every single<br> time.<br><br>
+
+               Doesn’t matter whether you’re on a Mac, PC, or Chromebook.<br> Just log in, follow a few instructions and you’re golden.
+               <br><br>
+
+            </div>
+ 
+            <div class="div13-group">
+                <img style="padding-left:40px" width="500" height="400" src="https://getadacomply.com/wp-content/uploads/2019/12/CloudB3.png">
+            </div>
+
+            <h1 id="heading18">Here’s How ADA Comply Works…</h1>
+            <div class="div14-group">
+                <div>
+                  <img width="400px" height="268px"src="https://getadacomply.com/wp-content/uploads/2019/12/St2-1536x1334.png">
+                </div>
+                <div>
+                  <p id="p13"><b>STEP 1:</b> Add a new website to your ADA<br> Compliant dashboard with the web url<br> address Click to copy the code to your<br> website</p>
+                </div>
+            </div>
+
+            <div class="div14-group">
+                <div>
+                  <img width="400px" height="300px" src="https://getadacomply.com/wp-content/uploads/2019/12/St1-1536x1314.png">
+                </div>
+                <div>
+                  <p id="p13"><b>STEP 2:</b>  Click to copy the code to your<br>website</p>
+                </div>
+            </div>
+
+            <div class="div14-group">
+                <div>
+                  <img width="400px" height="300px" src="https://getadacomply.com/wp-content/uploads/2019/12/St3-1536x1377.png">
+                </div>
+                <div>
+                  <p id="p13"><b>STEP 3:</b> Paste the code in your website’s<br> footer.</p>
+                </div>
+            </div>
+
+
+            <div class="d10">
+               <p id="p14"><b>And that’s it!</b>
+                  <br>
+                  From there you can add any other accessibility profiles you need to your site easily<br> from ADA Comply. Just follow the simple steps and you’ll be ADA Compliant in<br> absolutely no time!
+               </p>
+            </div>
+
+         </div>
+
+         <div class="section12-wrap">
+            <h1 id="heading19">What Is New In Version 2.0?</h1>
+            <h2 id="heading20"><b>With Version 2.0 we’re bringing you BRAND NEW Lead Generation & <br>Monetization Features With Only One Purpose -To Help You Get<br><u> More Clients, Close More Sales & Generate More Profits.</u></b></h2>
+
+            <div class="div15-group">
+               <h2 id="heading21">NEW - Lead Generation & Business Search</h2>
+               <p id="p15">Use ADA Comply 2.0 to find Businesses that are not yet<br> ADA Compliant.<br><br>
+
+                  Just plug in the Industry and our app will deliver you<br> Websites & Businesses that are not yet optimzied</p>
+            </div>
+
+            <div class="div15-group">
+               <img style="padding-top: 80px;" width="500px" height="300px" src="https://getadacomply.com/wp-content/uploads/2020/04/search-result.png">
+            </div>
+
+
+            <div class="div15-group">
+               <img style="padding-top: 80px;" width="500px" height="300px" src="https://getadacomply.com/wp-content/uploads/2020/04/web-analysis.png">
+            </div>
+
+             <div class="div15-group">
+               <h2 id="heading21">
+               NEW - Website Compliance Analysis</h2>
+               
+               <p id="p15">With this brand new feature you’ll be able to plug ANY<br> website into ADA Comply 2.0 and you’ll be everything that<br> Website is lacking when it comes to ADA Compliance.</p>
+            </div>
+
+
+            <div class="div15-group">
+               <h2 id="heading21">NEW - Professional PDF Report</h2>
+               <p id="p15">In version 2.0 you are now able to convert your Website<br> Analysis into a slick report.<br><br>
+
+                  You can send this report directly to any prospect via email<br> and it will help you to land clients quickly and easily.<br>
+               </p>
+               
+            </div>
+
+            <div class="div15-group">
+               <img style="padding-top: 80px;" width="500px" height="300px" src="https://getadacomply.com/wp-content/uploads/2020/04/reports-adacomply-app.png">
+            </div> 
+
+         </div>
+
+         <div class="section13-wrap">
+              <h1 id="heading22">Offer an incredibly helpful and<br> lucrative service in just 4 simple steps</h1>
+
+              <div class="div16-group">
+                  <h3 id="heading23">Use ADA Comply 2.0 To Find Businesses That<br> Need Help</h3>
+                  <img width="500px" height="400px" src="https://getadacomply.com/wp-content/uploads/2020/04/lead-gen-768x569.png">
+              </div>
+
+              <div class="div16-group">
+                  <h3 id="heading23">Use Our Reporting Feature & Send The Report<br> Directly To Your Prospect</h3>
+                  <img width="500px" height="400px" src="https://getadacomply.com/wp-content/uploads/2020/04/compliance-review-report-1-768x569.png">
+              </div>
+
+               <div class="div17-group">
+                  <h3 id="heading23">Land The Client & Get Paid’</h3>
+                  <img width="500px" height="400px" src="https://getadacomply.com/wp-content/uploads/2020/04/clients-768x569.png">
+              </div>
+
+              <div class="div17-group">
+                  <h3 id="heading23">Use ADA Comply to Optimize your client's<br>Website in minutes</h3>
+                  <img width="500px" height="400px" src="https://getadacomply.com/wp-content/uploads/2020/04/compliance-768x569.png">
+              </div>
+         </div>
+
+         <div class="section14-wrap">
+            <div>
+               <h1 id="heading24">See ADA Comply 2.0 In Action<br> With This Demo</h1>
+             
+               <iframe style=" margin-left: 20%; border: 20px solid black; border-radius: 20px;" width="800" height="400" src="https://fast.wistia.net/embed/iframe/70anmoo3k7?chromeless=false&controlsVisibleOnLoad=true&playbar=true&fullscreenButton=true&playerColor=fff&videoFoam=trueSee ADA Comply 2.0 In Action With This Demo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>   
+
+
+             <div>
+               <h2 id="heading25">Limited Time Special Offer</h2>
+               <h3 style="text-decoration: line-through; text-align: center; color: white; font-size: 35px">Normal Price: $97/Year</h3>   
+               <h3 style="text-align: center; color: white; font-size: 35px "> Today Only: Low <b><u>One Time</u> Fee</b></h3>
+               <button id="btn1">GET INSTANT ACCESS NOW</button>       
+
+               <img style="margin-left: 30%" width="700px" height="100px" src="https://getadacomply.com/wp-content/uploads/2020/04/MoneyBack-White-3.png">
+
+            </div>
+
+
+         </div>
+
+         <div class="section15-wrap">
+             <div class="div18-group">
+               <img style="margin-left: 40px; margin-top: 90px; margin-right: 60px" width=" 500px" height=" 400px" src="https://getadacomply.com/wp-content/uploads/2019/12/Tur4.png">
+             </div>
+
+             <div class="div18-group">
+               <h1 id="heading26">No Technical Expertise Needed!</h1>
+               <p id="p16">Even if you have the technical skills of a turtle, you can still use<br> ADA Comply. I’ve designed the software so there’s literally no<br> learning curve involved. It really is as simple as copying and<br> pasting the single line of code that the software gives you and let<br> ADA Comply do it’s magic.<br><br>
+
+               But even if you get stuck, I’ll have training to show you how to do<br> it quickly and easily!</p>
+             </div>
+
+             <div class="div19-group">
+               <h1 id="heading26">This is Great For SEO Too!</h1>
+               <p id="p16">Did you know that having an accessible website is so important<br> that Google gives it more revelancy than one that isn't<br> accessible?<br><br>
+
+               So by not having an accessible website for disabled people, you<br> could be losing out on a ton of potential customers which means<br> losing out on more potential revenue.<br><br>  
+
+               Just another reason to let ADA Comply get your sites compliant<br> and all ready to go!<br><br>
+             </div>
+
+             <div class="div19-group">
+               <img style="margin-top: 30px;"src="https://getadacomply.com/wp-content/uploads/2019/12/SEO2.png">
+             </div>
+
+
+             <div class="div20-group">
+                <img style="margin-left: 40px; margin-top: 90px;" width=" 500px" height=" 400px" src="https://getadacomply.com/wp-content/uploads/2019/12/SecImg2B.png">
+             </div>
+
+
+             <div class="div20-group">
+               <h1 id="heading26">You’ll Be Ready To Tap Into a<br> Multi Billion Dollar Market...</h1>
+               <p id="p16">Right now, the disabled market is valued at $650 billion dollars.<br><br>
+
+                  That’s BILLIONS with a capital B.<br>
+
+                  Now, I don’t advocate taking advantage of disabled people. As <br> matter of fact, if you do that, then ADA Comply isn’t for you.<br><br>
+
+                  However, disabled people need services and spend money as<br> well. So why not put your sites in position to profit from the<br> market?<br><br>
+
+                  If you offer services that truly help and make disabled people’s<br> lives easier, and their willing to spend money with you, then it’ll<br> be a win/win all the way around.<br><br>
+
+                  But by not making your sites accessible, you lose potential<br> customers and leave money on the table.<br><br></p>
+             </div>
+            
+         </div>
+
+         
+         <div class="section16-wrap">
+              <h1 id="heading27">ADA Comply Also Comes With A Commercial<br> License So You Can Make A Six Figure Income!</h1>
+
+            <div class="div21-group">
+              <p id="p17">While ADA Comply is great for your own personal sites and<br> business, I also want to offer you a commercial license of ADA<br> Comply at no additional charge.<br><br>
+
+              This is my way of saying thanks for taking fast action and getting<br> access to ADA Comply today.<br><br>
+
+              With this free upgrade, you’ll put yourself in a position to make an<br> additional six figure income.<br><br>
+
+              Just imagine if you charged $1,000 per client or $500 per site.<br> You would only need a handful of clients to generate a realistic<br> six figure yearly income.<br><br>
+
+              And why wouldn’t small businesses sign up for this service?<br> Especially when you’re helping them not to lose 10’s of thousands<br> of dollars right?<br><br>
+
+              This option alone makes investing in ADA Comply a true no<br> brainer!<br><br></p> 
+            </div>
+
+            <div class="div21-group">
+                <img width="600px" height="600" src="https://getadacomply.com/wp-content/uploads/2019/12/Legal23.png">
+            </div>
+         </div>
+
+
+         <div class="section17-wrap">
+            <h1 id="heading28">Here’s How One Guy Was Able To Generate<br> $50,000 In 7 Weeks Helping Businesses<br> Get Their Sites ADA Compliant...</h1>
+               <div class="d11-img">
+                     <img class="round-image4" src="https://getadacomply.com/wp-content/uploads/2019/12/vaughn-snapilabs.jpg">
+                     <div class="d11-textbox">
+                        <div>
+                          <img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFdgm3HozV7eSzQ6iFjA5qz7j2SbX83_tZTXC2XepF7nQL-Ujc&usqp=CAU">
+                        </div>
+                        <div>
+                          <img style="padding-top: 30px; padding-left: 80px; " width="400px" height="300px" src="https://getadacomply.com/wp-content/uploads/2019/12/vaugn-skype-1536x1019.png">
+                          <p id="p18"> After product development, I needed money... so I decided to use ADAComply as a<br> freelancer serving clients in the USA. <b>I did over $50k in 7 weeks.</b> I worked only part<br> time using the special <b>WHOIS email database</b> (which is available as one of the<br> bonuses. This database has the contact info of millions of website owners) to look for<br> websites websites with traffic.<br><br>
+                          I contacted 100 of them using a special email swipe <b>(this swipe is part of the ADAComply 'done for you' prospecting kit).</b><i>  28 responded and 11 paid.</i> I charged them between<b> $700 and $14,000 for the highest.</b>
+
+                           </p>
+                           <hr class="hr3">
+                         
+                           <div class="d8-end">
+                             <p class="p7">Vaughn</p>
+                           </div>
+                           <div class="d8-end">
+                              <p class="p8">IrokoWEB</p>
+                            </div>
+                        </div>
+                     </div>
+               </div> 
+
+               <div>
+                  <h2 id="heading25">Limited Time Special Offer</h2>
+                  <h3 style="text-decoration: line-through; text-align: center; color: white; font-size: 35px">Normal Price: $97/Year</h3>   
+                  <h3 style="text-align: center; color: white; font-size: 35px "> Today Only: Low <b><u>One Time</u> Fee</b></h3>
+                  <button id="btn1">GET INSTANT ACCESS NOW</button>       
+
+                  <img style="margin-left: 35%; margin-top: 10px;" width="400px" height="100px" src="https://getadacomply.com/wp-content/uploads/2020/04/MoneyBack-White-3.png">
+               </div>
+
+         </div>
+
+         <div class="section18-wrap">
+            <h1 id="heading29">ADA Comply Is Like Repellant<br> For Greedy Lawyers</h1>
+
+            <div class="div22-group">
+               <img style=" padding-left: 40px" width="450px" height="300px" src="https://getadacomply.com/wp-content/uploads/2019/12/Lawsuite.png">
+            </div>
+
+            <div class="div22-group">
+               <p id="p19">It’s no secret that lawsuits for non ADA compliant sites are on the<br> rise. As a matter of fact, this has become the new money maker<br> for lawyers who used to chase ambulances.<br><br>
+
+               And because they know the inner workings of the law, they can<br> trap you in an instant for an easy payday.<br><br>
+
+               But when you put ADA Comply on your sites, you’ll sap them of<br> their legal powers and render their underhanded schemes totally<br> useless.</p>
+            </div>
+
+            <h1 id="heading30">Ignorance Is No Excuse.  If Your Site<br> Isn’t Compliant, You Can Be Sued!</h1>
+            <p id="p20">Unfortunately, even if you didn’t know about the laws that govern ADA compliance - you could still wind up losing 10’s of thousands of dollars. As a matter of fact, some of these ‘legal experts’ actually prey on unsuspecting individuals like yourself.</p>
+
+            <p id="p21">Don't believe me? Check this out:</p>
+            <p id="p22"> Not Being ADA Compliant Cost Him Dearly…</p>
+
+            <img style=" padding-left:260px;" width="700px" height="500px" src="https://getadacomply.com/wp-content/uploads/2019/12/ScreenShotsN2.png">
+
+            <p id="p22">Heck, You Can Even Be Sued Multiple Times If You<br> Don’t Take Action Immediately!</p>
+
+            <img style=" padding-left:260px;" width="900px" height="700px" src="https://getadacomply.com/wp-content/uploads/2019/12/ScreenShotsN1.png">
+
+            <h1 id="heading30">Listen. Unless You’ve Got An Extra $50k To Burn,<br> You Need To Protect Yourself Now!</h1>
+
+            <div class="div23-group">
+               <p id="p23">Heck, as you can see from above, if this happened to a major<br> restaurant chain like Hooters, which happened to be sued<br> multiple times for the same issue, what hope do you have of<br> escaping ADA compliance?<br><br>
+
+               These lawsuits are costing business owners 10’s of thousands of<br> dollars. The average ADA compliance lawsuit is $50,000.<br><br>
+
+               Ouch!<br><br>
+
+               So you have to decide. Do you want to chance losing even 10% of<br> that multiple times over or do you want to make a very small one<br> time investment that will guarantee you never fall victim to an<br> ADA compliance lawsuit now or in the near future?<br><br>
+            </div>
+
+            <div class="div23-group">
+               <img width="500px" height="400px" src="https://getadacomply.com/wp-content/uploads/2019/12/Protection.png">
+            </div>
+         </div>
+
+         <div class="section19-wrap">
+            <h1 id="heading30">Here's What Mario's Customers<br>Have To Say About His Products</h1>
+
+               <div class="div9-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/gUb8JS74cjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="div9-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/KCIpkO8PxBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="div9-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/_eaVaOOk15s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                 <div class="div10-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/_lAtw5MsIvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+               <div class="div10-group">
+                 <iframe width="388" height="218" src="https://www.youtube.com/embed/ccb8_xq87Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+
+               <div class="div10-group">  
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/Donb0bW4o-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+
+               <div class="div24-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/DC-bbWxbRzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+
+               <div class="div24-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/AJ1pSjnitM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+
+               <div class="div24-group">
+                  <iframe width="388" height="218" src="https://www.youtube.com/embed/nUwKSgfL290" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+
+               
+               <h1 id="heading30">Can I Bribe You To Get Your Sites ADA Compliant<br> Today and Avoid Frivolous Lawsuits Too?</h1>
+
+               <div class="div25-group">
+                  <button id="btn2">VIP BONUS 1</button>
+                  <div>
+                     <h1 id="heading31">Social Trend Spy: (With Agency<br> Rights - Install on Client Sites)</h1>
+                     <p id="p24">Social Trend Spy Plugin is a very highly sort after<br> WP plugin that allows you to spy on profitable<br> trending High Converting Ad Campaigns in any<br> niche included some training and even a guide to<br> help you with some keyword ideas.<br><br>
+
+                     Social Trend Spy Plugin allows you to narrow your<br> research to which website posted and/or<br> keywords broken all the way down to posts by<br> date photo posts.<br>
+                     </p>
+                  </div>
+               </div>
+
+               <div class="div25-group">
+                  <img style="padding-left: 170px;" width="400" height="450"src="https://designbundle.io/wp-content/uploads/2019/10/social_trend-removebg-preview.png">
+               </div>
+
+               <div class="d12">
+                  <div class="div26-group">
+                     <img style="padding-bottom: 250px; padding-left: 20px;"width="400px" height="200px" src="https://agencyblitz.co/wp-content/uploads/2019/09/clickfomo-mock2-1.png">
+                  </div>
+
+                  <div class="div26-group">
+                     <button id="btn3">VIP BONUS 2</button>
+                     <h2 id="heading32">Agency License to<br> ClickFomo Software</h2>
+                     <h2 id="heading33">Normal Price - $67</h2>
+                     <p id="p25">A SaaS platform that helps users harness the<br> phsychological principle of the herd effect and<br> fomo - 'the fear of missing out' to double, triple or<br> even quadruple the conversions on their <br>salespage, optin pages, webinar pages, ecom<br> stores, etc without stress.<p>
+                  </div>
+               </div>
+
+
+               <div class="div27-group">
+                  <button id="btn4"> VIP Bonus 3</button>
+                  <h2 id="heading34"><b>220+ Done For You Local Video<br> Templates (worth $997)</b></h2>
+                  <p id="p26">Create Highly Engaging & Profit Pulling Videos In<br> Minutes . . . Done-For-You Video Templates, Audio<br> Tracks and Stock Images . . . Using Only MicroSoft<br> Powerpoint!<br><br>
+
+                  220+ Brand new collection of Premium<br> PowerPoint video templates that are aesthetic,<br> responsive and easy to use. Comes with beautiful<br> artistic effects yet so easy to edit.<br><br>
+
+                  No matter what kind of video you’re trying to<br>create, there’s a video template for you. DFY Local<br> Vids makes video creation drop-dead simple.<br>
+                  </p>
+               </div>
+
+               <div class="div27-group">
+                  <img width="450px" height="500px "src="https://designbundle.io/wp-content/uploads/2019/10/Local-Vid-Tempate1.png">
+               </div>
+
+               <div class="d12">
+                  <div class="div26-group">
+                     <img style="padding-bottom: 240px; padding-left: 20px;"width="350px" height="300px" src="https://contentburger.io/wp-content/uploads/2020/03/calender.png">
+                  </div>
+
+                  <div class="div26-group">
+                     <button id="btn5">VIP BONUS 4</button>
+                     <h2 id="heading32">Done-For-You Social Media Content<br> Calendar & Strategy For 365 Days<br> [Full Year]</h2>
+                     <h2 id="heading33">Normal Price - $67</h2>
+                     <p id="p25">Done-For-You Social Media Content Calendar &<br> Strategy For 365 Days (this alone is worth a<br> premium)<br><br>
+                     With this vault you will never lack content for your<br> social media marketing again as you'll get ready-<br>made daily curated content with fresh trending<br> topics giving you ALL the benefits of content<br> marketing with none of the work.<br></p>
+                  </div>
+               </div>
+
+               <h1 id="heading35">+ My Special Prospecting Bundle</h1>
+               <p id="p27">This Will Help You <b>Get Clients</b> &  <br>Turn This Into A True <u>Six Figure Income</u></p>
+               <button id="btn6">VIP BONUS 5</button>
+               <p id="p28">Get Access To Over <b>300 Million Businesses</b> & Millions of <b>Professionals</b> In the USA.</p>
+               <p id="p29">Normal Price - $2,997 Worth : $20,000</p>
+
+
+               <div>
+                  <h1 id="heading36">Here's What You'll Get Access To:</h1>
+                  <ol class="list3">
+                     <li>23 Million US Businesses Database</li><br>
+                     <li>300 Million Global Domain & Website owners Database</li><br>
+                  </ol>
+
+
+                  <h1 id="heading36">You will also Get Instant 1.2 Million Realtors EamilsAccess To:</h1>
+                  <ol class="list3">
+                     <li>1.2 Million Realtors Emails</li><br>
+                     <li>150,000 Home Builders And Constructors Emails</li><br>
+                     <li>15,000 CPS $ Accounting Emails</li><br>
+                     <li>19,000 Veterinarian and Animal Hospitals Emails</li><br>
+                     <li>230,000 US Physicians Emails</li><br>
+                     <li>11,654 Chiropractors Emails</li><br>
+                     <li>21,000 Loan Officers Emails</li><br>
+                     <li>37,000 Dentists Emails</li><br>
+                     <li>20,000 Insurance Agents and Brokers Emails</li><br>
+                     <li>10,000+ Websites Built On Clickfunnels</li><br>
+                     <li>120,000 Clickfunnels Members<br>(They all need ADAComply)</li><br>
+                  </ol>
+               </div>
+
+               <div>
+                  <h1 id="heading37">Limited Time Special Offer</h1>
+                  <h2 id="heading38">Normal Price: $97/year</h2>
+                  <img style="margin-left: 35%" width="350px" height="50px" src="https://getadacomply.com/wp-content/uploads/2020/04/MoneyBack-14-Black-2.png">
+                  <h2 id="heading39">Hurry! Price Increasing Again Soon</h2> 
+               </div>
+
+         </div>
+
+         <div class="section20-wrap">
+             <img class="round-image5" src="https://getadacomply.com/wp-content/uploads/2020/04/mbg.png">
+             <div class="d13">
+                 <h1 id="heading40">Try ADA Comply Today Risk Free.</h1>
+                 <p id="p30">I know that all of this information might be a little daunting to take in. But it’s the world we live in today. And if you want your business to thrive, you have to adapt.<br><br>
+
+                  That’s why I’m offering you access to ADA Comply today. By getting access today, I guarantee that your sites will meet all the necessary requirements to be compliant.<br><br>
+
+                  Just copy and paste a single line of code that ADA Comply gives you and you’re all set.<br><br>
+
+                  But if you don’t think that ADA Comply lives up to everything I’ve stated on this page, or if for any reason you change your mind within 14 days of purchase, just simply send me an email and I’ll refund you every single penny.<br><br>
+
+                  No questions asked.<br><br>
+
+                  Plus as my way of saying thanks for giving ADA Comply an honest try, I’ll let you keep all the bonuses! <br><br>
+                 </p>
+             </div>
+
+             <div>
+               <h2 id="heading25">Limited Time Special Offer</h2>
+               <h3 style="text-decoration: line-through; text-align: center; color: white; font-size: 35px">Normal Price: $97/Year</h3>   
+               <h3 style="text-align: center; color: white; font-size: 35px "> Today Only: Low <b><u>One Time</u> Fee</b></h3>
+               <button id="btn1"><b>GET INSTANT ACCESS NOW</b></button>       
+
+               <img style="margin-left: 35%" width="500px" height="100px" src="https://getadacomply.com/wp-content/uploads/2020/04/MoneyBack-White-3.png">
+
+            </div>
+         </div>
+
+         <div class="section21-wrap">
+             <h1 id="heading41">You Can Invest A Small Amount Today...Or Get Sued For Thousands of Dollars Over and Over Again. The Choice Is Yours.</h1>
+
+             <div class="div28-group">
+               <img style="margin-left: 10%" width="500px" src="https://getadacomply.com/wp-content/uploads/2019/12/Invest-Money.png">
+             </div>
+
+             <div class="div28-group">
+               <p id="p31">Now that I've shown you exactly how you can quickly and easily<br> make every website you own ADA compliant, as well as how to<br> make major profit helping others to do the same...the next move<br> is up to YOU.<br><br>
+               Seriously, if you've read this far, then you know that it’s<br> EXTREMELY important to make sure all your websites follow the<br> ADA compliance laws. If not, then it’s only a matter of time before<br> you’re looking at the possibility of losing a ton of money.<br><br>
+               Thousands, 10’s of thousands, or maybe even more.<br>
+               </p>
+             </div>
+         </div>
+
+         <div class="section22-wrap">
+             <h1 id="heading42">But you’ll never have to worry about that when you get access to ADA Comply today.</h1>
+             <h1 id="heading43">With ADA Comply, you’ll be ready to:</h1>
+
+             <div class="div29-group">
+               <p id="p32">Take control of your current and future business dealings<br><br>
+​                           Legal proof all of your digital assets<br><br>
+​                           Make every website you have compliant in a flash<br><br>
+​                           Be able to help other businesses for major profits<br><br>
+                </p>
+             </div>
+
+             <div class="div29-group">
+               <img width="300px" height="300px"src="https://getadacomply.com/wp-content/uploads/2019/12/Single1-copy.png">
+             </div>
+
+
+             <div class="div29-group">
+               <p id="p33">Avoid messy lawsuits<br><br><br>
+​                           Get better search engine rankings<br><br>
+                           Tap into a multi billion dollar market<br><br>
+​                           And a lot more!<br><br>
+                </p>
+             </div>
+
+             <p id="p34">If that sounds like something you want, (which it should be) then, you owe it to yourself to take full advantage of this very limited, risk-free offer right now before it's too late.<br><br>
+             Because the investment in ADA Comply is extremely low during this launch special.</p>
+
+             <div>
+                  <h1 id="heading37">Limited Time Special Offer</h1>
+                  <img style="margin-left: 35%" width="350px" height="50px" src="https://getadacomply.com/wp-content/uploads/2020/04/MoneyBack-14-Black-2.png">
+                  <h2 id="heading39">Hurry! Price Increasing Again Soon</h2> 
+               </div>
+         </div>
+
+         <div class="section23-wrap">
+             <h1 id="heading44">“But Can I Afford To Invest In ADA Comply?”   Honestly? You Can’t Afford Not Too!</h1>
+
+             <div class="div30-group">
+               <p id="p35">This isn’t like other software or products that promise you a lot of<br> hype and sizzle, but are all fluff instead. ADA Comply is exactly<br> what you need to safeguard your sites against frivolous lawsuits.<br><br>
+
+               So which would you prefer? To chance it and hope you never get<br> sued in the near future? Or invest the equivalent of a cheap<br> dinner for two?<br><br>
+
+               Honestly, it should be a no brainer. Because by not investing in<br> ADA Comply today, you could literally be risking 10’s of thousands<br> of dollars any day now.<br><br>
+
+               Possibly even tomorrow.<br><br>
+
+               So with that being said...<br><br>
+               </p>
+             </div>
+
+             <div class="div30-group">
+               <img width="450px" height="400px" src="https://getadacomply.com/wp-content/uploads/2019/12/Invest-Money3.png">
+             </div>
+         </div>
+
+         <div class="section24-wrap">
+             <h1 id="heading44">Go Ahead And Get Access To ADA Comply Now While The Price Is Still Low!</h1>
+
+             <div class="div31-group">
+                <img width="600" height="400" src="https://getadacomply.com/wp-content/uploads/2019/12/AdaComple-Com1.png">
+             </div>
+
+             <div class="div31-group">
+               <p id="p36">Now you have no excuse.<br><br>
+
+               Everything you need to legal proof your websites, rank higher in <br>the search engines, create a six figure income, and even tap into<br> a 650 billion dollar market is all being provided inside of ADA<br> Comply.<br><br>
+
+               I’ve literally made becoming ADA compliant a breeze. It’s so easy<br>that all you need to do is copy and<br> paste a single line of code and you’re done.<br><br>
+
+               By getting access to ADA Comply, you can sleep better at night<br> knowing that you won’t be victim to the rise of ADA lawsuits.<br><br>
+
+               But if you pass?<br><br>
+
+               Eventually, a lawsuit could be headed your way too.<br><br>
+             </div>
+
+             <h1 id="heading44">So why not make the right choice and get access to ADA Comply today?</h1>
+             <p id="p37">Especially since you’re protected by my no risk money back guarantee?<br><br>
+
+               By making a tiny investment today, you have everything to gain and absolutely nothing to lose. The only thing you need to do is take action and get your account setup right now.<br><br>
+
+               Don’t wait and don’t delay.<br><br>
+
+               Your very future could depend on it.<br><br>
+
+               Go ahead and click the button below to get setup now and I look forward to helping you make all your sites ADA compliant in a flash!<br><br>
+             </p>
+
+             <div class="div32-group">
+               <div class="d14">
+                 <img class="round-image6" src="https://getadacomply.com/wp-content/uploads/2020/04/paul.png">
+                 <img class="quotes" src="https://strandgi.com/wp-content/uploads/2019/03/quotation-marks.png">
+                 <p id="p38">I made $4,500 from my first client. I got to know about you<br> through your product contentburger which gave me huge<br> success. Adacomply is another winner. I got this client the first<br> week working from home as everything is on lockdown here.<br><br></p>
+
+               </div>
+               
+            </div>
+
+            <div class="div32-group">
+               <div class="d14">
+                  <img class="round-image6" src="https://getadacomply.com/wp-content/uploads/2020/04/Anita.png">
+                  <img class="quotes" src="https://strandgi.com/wp-content/uploads/2019/03/quotation-marks.png">
+                  <p id="p38">I upsold ADA compliance service to one of my social media<r> agency clients and he paid.  All I did was to generate a report  and forward it to him.  It took me less than 1 hour to fix his website.  ($1,500). Never knew making money could be this easy and fun..<br><br></p> 
+               </div>
+            </div>
+
+            <h1 id="heading45">Click The Button Below To Setup Your ADA Comply Account Now!</h1>
+            <h3 style="text-decoration: line-through; text-align: center; color: white; font-size: 35px; font-family: 'Heebo', sans-serif; color: black;">Normal Price: $97/Year</h3>   
+            <h3 style="text-align: center; color: white; font-size: 35px;font-family: 'Heebo', sans-serif; color: black; "> Today Only: Low <b><u>One Time</u> Fee</b></h3>
+            <img style="margin-left: 35%" width="350px" height="50px" src="https://getadacomply.com/wp-content/uploads/2020/04/MoneyBack-14-Black-2.png">
+            <h2 id="heading39">Hurry! Price Increasing Again Soon</h2>
+
+            <h2 id="heading46">Frequently Asked Questions</h2>
+               <p id="p39">Q.What kind of websites will this work?<br>
+                  A. It works on any type of website - wordpress. html, wix, convertri, mobilefirst, clickfunnels, convertri, shopify, etc. As long as you can paste pixel code, it should work.<br><br>
+
+                  Q. Do I have to be technical to use this?<br>
+                  A. No, it’s made to be simple. We’ve done a deep study of the policy and requirements so you don’t have to.<br><br>
+
+                  Q. How Many webbsites can I used this one?<br>
+                  A. You can use this on 10 websites.<i> A $77 (one time fee) upgrade to the pro verison</i> allows you to install on UNLIMITED WEBSITES plus WHITELABEL: <u> remove the 'powered by' branding.</u><br><br>
+
+                  Q. Can I install it myself?<br>
+                  Sure! Its very simple. Just copy and past the code on your website.<br><br>
+               </p>
+
+               <p id="p40">Notice: this is not a part of Google, the Facebook Website, or Facebook Inc.. Also, this site is NOT
+                  endorsed by Google or Facebook in any way, Facebook is a Trademark of Facebook inc.<br><br>
+
+                  Every effort has been made to accurately represent the product(s) sold through this website and their potential. Any claims made or examples given are believed to be accurate, however, should not be relied on in any way in making a decision whether or not to purchase. Any testimonials and examples used are exceptional results, don’t apply to the average purchaser and are not intended to represent or guarantee that anyone will achieve the same or similar results. Each individual’s success depends on his or her background, dedication, desire and motivation as well as other factors not always known and sometimes beyond control. There is no guarantee you will duplicate the results stated here. You recognize any business endeavor has inherent risk for loss of capital. Basically, we can’t FORCE you to TAKE ACTION, so therefore we cannot promise success.<br><br>
+ 
+                  Important : We did our best to cover everything required for compliance according to Web Content Accessibility Guidelines as laid down by the WCAG standard 2.0 laid down by the W3C Consortium, BUT this may not be 100% enough to meet the complete ADA requirements of your business. Please make sure you get an independent review done by an expert to understand what other measures you might need to take in addition to this plugin.<br><br>
+               </p>
+
+               <p id="p41">If you close this page and come back later, you risk paying a lot more for ADAComply. <u>Click HERE</u> To Get it now so you don’t regret later. See you inside!</p>
+
+         </div>
+
+         <div class="section25-wrap">
+            <div class="div33-group">
+                  <h6 id="heading47">Copyright 2020 - ADA Comply- All Rights Reserved</h6>
+            </div>
+            <div class="div33-group">
+                  <div id="d15">
+                    <a style="font-size: 12px;" href="#">Terms & Condition|</a>
+                    <a style="font-size: 12px;"href="#">Privacy Policy|</a>
+                    <a style="font-size: 12px;"href="#">Earnings Disclaimer|</a>
+                    <a style="font-size: 12px;"href="#">Cookie Policy|</a>
+                    <a style="font-size: 12px;"href="#">Support</a>
+                  </div>
+            </div>
+         </div>
+
+      
+
+   </body>
+</html>
